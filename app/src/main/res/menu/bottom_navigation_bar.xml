@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Lost"
+        android:id="@+id/lostbutton"
+        android:icon="@drawable/lost"/>
+    <item android:title="Found"
+        android:id="@+id/foundbutton"
+        android:icon="@drawable/found"/>
+    <item android:title="Notifications"
+        android:id="@+id/notificationsbutton"
+        android:icon="@drawable/notifications"/>
+</menu>
