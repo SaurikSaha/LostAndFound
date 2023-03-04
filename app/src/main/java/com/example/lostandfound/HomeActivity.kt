@@ -16,7 +16,6 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
         btmnavview=findViewById(R.id.bottomNavigationView)
-        call_fragment(Lost_items())
         btmnavview.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.lostbutton -> {
@@ -32,7 +31,7 @@ class HomeActivity : AppCompatActivity() {
                     true
                 }
                 else -> {
-                    true
+                    false
                 }
             }
         }
